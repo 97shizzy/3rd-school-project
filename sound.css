@@ -1,0 +1,74 @@
+body {
+	background-image: url('pics/back.jpg');
+	text-align: center;
+background-size: cover; 
+  background-position: center ; 
+ background-attachment: fixed;
+  background-repeat: no-repeat; 
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+	
+}
+
+
+.n1 {
+	display: flex;
+	text-align: left;
+	margin-top: 5%;
+	height: 53%;
+	background: #111;
+    color: #0ff;
+    border: 3px solid #3F9599;
+    border-radius: 25px;
+	box-shadow: 0 0 10px #3F9599;
+	width:99vw;
+	position:absolute;
+	overflow:hidden;
+}
+	  
+	  
+	  
+	  
+	  
+
+
+.n1 span {
+	font-size: 2.6vw;
+	line-height: 1.3;
+	color: #7DBE90;
+	width:65vw;
+	 font-family: "Quicksand", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+  overflow:auto;
+}
+
+
+
+
+.microbit-container {
+    width: 35vw;
+    height: 60vh; 
+    overflow: hidden; 
+
+
+
+}
+
+.microbit-frame {
+	pointer-events: auto;
+
+	margin-top: -25vh;
+    width: 100%;
+    height: 100VH;  
+
+}
+
+a {
+	text-decoration: none;
+}

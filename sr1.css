@@ -1,0 +1,210 @@
+
+body {
+   
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    color: rgb(255, 196, 0);
+    font-family: Arial, sans-serif;
+    background-size: cover; 
+  background-position: center ; 
+ background-attachment: fixed;
+  background-repeat: no-repeat; 
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+}
+.contain {
+    background-image: url('pics/starww.jpeg');
+
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 240vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    perspective:250px;
+}
+.scroll {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    transform-origin: 50% 100%;
+    opacity: 0; 
+    animation: scroll-up 40s linear infinite;
+    animation-delay: 3s; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes scroll-up {
+    0% { 
+        opacity: 1;
+        transform: rotateX(25deg) translateY(140vh); 
+    }
+    100% { 
+        opacity: 1;
+        transform: rotateX(25deg) translateY(-150%); 
+    }
+}
+
+
+
+a {
+    color: cyan;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+a:hover {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+
+.back {
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    padding: 10px 30px;
+    color: black;
+    border-radius: 15px;
+    background-color: gray;
+    font-size: 22px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 99999;
+
+}
+
+.back:hover {
+    opacity: 1;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    transform: scale(1.12);
+}
+.mod {
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 10000;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.modal {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=News+Gothic&display=swap');
+
+.star {
+    position: static;
+    font-family: 'News Gothic', sans-serif;
+    font-size: 130px;
+    color: #4ec3ff; 
+    text-shadow: 2px 2px 5px rgba(78, 195, 255, 0.8);
+    display: flex;
+    
+    justify-content: center;  
+    align-items: center;  
+    text-align: center;  
+}
+.star2 {
+    position: static;
+    font-family: 'News Gothic', sans-serif;
+    font-size: 130px;
+    color: #4ec3ff; 
+    text-shadow: 2px 2px 5px rgba(78, 195, 255, 0.8);
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    text-align: center;  
+}
+.audio22 {
+	position: absolute;
+    z-index: 99999;
+
+}
+
+
+.play-button {
+    
+    padding: 20px 40px;
+    font-size: 24px;
+    background: black;
+    color: #4ec3ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.play-button:hover {
+    color: purple;
+    box-shadow: 0 0 2px purple, 0 0 10px purple;
+}
+.volume-control {
+    position: fixed;
+    top:0;
+    opacity: 0.5;
+    border-radius: 20px;
+  
+    color:black;
+    padding: 10px;
+    right: 0;
+    
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.home {
+    width: 200px;
+    height: 50px;
+    background-image: url(pics/pip.jpg);
+    z-index: 999;
+    position: absolute;
+    right:0;
+    margin-top:688px;
+    text-align: center;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    text-align: center;
+    border-radius: 30px;
+    opacity: 1;
+   
+}
+.home span {
+    color: transparent;
+    text-align: center;
+    font-size: 20px;
+}
+.home:hover {
+    
+    pointer-events:all;
+    cursor: pointer;
+    background-image: none;
+    background-color: gray;
+}
+.home:hover span {
+    color:black;
+}
+
+
+
