@@ -1,0 +1,2 @@
+website needs to be uploadeduntill 30.03.2025 so i've time left but I won't do anything coz I don't like the theme and idea was given to do. Looks not so trash main probmlem with microbit cos it looks trash when rescaliing ur screen or on diff sizes but i did my max for it
+its just a microsoft bug cos when u use it as an iframe it takes half of page so idk i kinda cut it of but still some troubles and bugs
